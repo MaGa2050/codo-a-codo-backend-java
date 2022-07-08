@@ -1,0 +1,77 @@
+Maquina virtual es jdk. permite ejecutar codigo JAVA
+herramienta IDE Eclipse
+el IDE crea el area de trabajo - workspace
+Pero el codi lo ponemos en otra carpeta para evitar perdida de archivos.
+
+- MAVEN trabaja en conjunto con Eclipse
+Es un gestor, compilador, ejecutar lo que esta dentro de aerchivos JAVA.
+todo archivo MAVEN tiene un POM.xml que tiene 4 "propiedades"....
+
+groupid (carpeta que engloba subcarpetas, carpeta padre)
+artifactid (nombre del proyecto)
+packaging jar| war | pom \ ear
+version 0.0.1 - SNAPSHOT
+
+POM convierte un proyecto java a un maven
+
+pom.xml --- transportar informacion de un lado a otro, o representa cosas.
+
+detalle. Proyecto java.
+en la carpeta src tiene que haber dos carpetas main y test (si alguna no esta, crearla). main --- java. main --- webapp
+test --- java
+
+
+main/master ---- esta el codigo productivo, despleagado del servidor.
+si quieres agregar una funcionalidad se crea una rama paralela que se llama dev para que trabajen sobre los cambios ahi
+si queres agregar una nueva funcionalidad creas un feature/name.. (y despues lo podes llevar al dev con merge o )
+
+
+git checkout -b nombredealgo (genera un dev/branch). a partir de main creas un dev y luego los features
+en el bash te muestra entre parentesis en que branch estas. 
+git push -u origin nombrebranch,  mandas todo al remoto
+
+-construit variable en JAVA
+
+1ro el tipo --- 2do nombre
+ej. String color;
+
+
+
+
+-metodos
+a diferencia de las variables, los metodos llevan llaves, como las funciones en js
+
+
+UML (Lebguaje Modelado Unificado)
+Eclipse. POO
+
+un obejto es una instancia de una clase (la clase viene a ser una especie de molde de la que surgen los objetos)
+-constructor define valores predefinidos de las variables, para los objetos
+Clase nombreObjeto = new Clase()
+Auto fiatUno = new Auto() --- nace el objeto creado, a partir de ese moemnto puede interactuar con los metodos de la clase
+
+
+pensa("coca"): void --- aca no devuelve resultado, pero el metodo tiene una accion
+"El mejor metodo es aquel que no recibe parametros"
+decimeQuePensas():String, Int, Float, Boolean --- aca si devuelve lo que se le indique al metodo
+
+Nombre --- atributos --- metodos
+
+cuando creo un objeto puedo ver los atributos con los que nace el objeto
+NombreDelObejto.atributo
+
+Encapsulamiento --- para quien usa el objeto, el codigo no lo ve, no le importa, lo hace el objeto internamente.
+
+si dentro de un metodo no hay logica, el mismo no tiene implementacion
+
+
+servicio CRUD ---- Create Read update Delete
+
+conexion JAVA(BACK) con MySQL(front) es por MAven central (pagina web con un codigo https://mvnrepository.com/artifact/mysql/mysql-connector-java )
+
+desde el front hacemos una peticion a JAVA (servlet o controller que envia con un 'action' en el html. DeleteController UpdateController CreateController ReadController estas son clases JAVA)
+
+agregación y composición
+
+agregación es lo que puede no estar, que es un agregado.
+composición es algo que siemore tiene que estar.
