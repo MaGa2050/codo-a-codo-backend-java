@@ -9,7 +9,7 @@ public class Switch {
 		switch (nota) {
 		case 7:
 			System.out.println("aprobado");
-			brek;
+			break;
 		case 10:
 			System.out.println("excelente");
 			break;

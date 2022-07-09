@@ -22,7 +22,7 @@ public class Auto {
 	
 	
 	// constructor
-	 public Auto(float velocidadMaxima, Motor motor) {
+	 public Auto() {
 		this.setVelocidad(0);
 		//anio = 2022;
 		this.setAnio(2022);

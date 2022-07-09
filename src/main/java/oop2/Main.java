@@ -4,6 +4,8 @@ import oop.Auto;
 
 public class Main {
 
+	private static final String Motor = null;
+
 	public static void main(String[] args) {
 		Auto auto = new Auto(Motor, "Motor");
 		
