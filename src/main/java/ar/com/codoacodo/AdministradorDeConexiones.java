@@ -3,7 +3,7 @@ package ar.com.codoacodo;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class AdministradoDeConexiones {
+public class AdministradorDeConexiones {
 
 	public static Connection getConnection() {
 		String url = "jdbc:mysql://127.0.0.1:3306/codo-a-codo?serverTimeZone=UTC&userSSL=false";
@@ -22,7 +22,7 @@ public class AdministradoDeConexiones {
 		return con;
 	}
 
-}
+
 
 	public static void main(String[] args) {
 		Connection con = AdministradorDeConexiones.getConnection();// f5
