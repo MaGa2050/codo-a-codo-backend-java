@@ -39,7 +39,7 @@
 
 	</dependencies>
 	 <build>
-    <finalName>codoacodo-back</finalName>
+    <finalName>codo-a-codo-backend-java</finalName>
 	<plugins>
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
