@@ -48,10 +48,6 @@ public class Auto {
 		return this.motor;
 	}
 	 
-	private void setModelo(String string) {
-		
-	}
-
 	private void setAnio(int i) {
 		
 	}
