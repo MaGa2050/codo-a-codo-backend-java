@@ -44,7 +44,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
-				<version>3.3.0</version>
 				<executions>
 					<execution>
 						<phase>package</phase>
@@ -56,7 +55,7 @@
 								<artifactItem>
 									<groupId>com.heroku</groupId>
 									<artifactId>webapp-runner</artifactId>
-									<version>9.0.41.0</version>
+									<version>9.0.52.1</version>
 									<destFileName>webapp-runner.jar</destFileName>
 								</artifactItem>
 							</artifactItems>
@@ -67,5 +66,3 @@
 		</plugins>
 	</build>
 </project> <!-- Crtl+shift+f formatea f el codigo-->
-
-
