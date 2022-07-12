@@ -1,5 +1,8 @@
 eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
 encoding//src/main/java/ar/com/codoacodo/controllers/BuscarController.java=UTF-8
 encoding//src/main/java/ar/com/codoacodo/controllers/ConsultarController.java=UTF-8
 encoding//src/main/java/ar/com/codoacodo/controllers/EditarController.java=UTF-8
 encoding//src/main/java/ar/com/codoacodo/controllers/EliminarController.java=UTF-8
+encoding//src/test/java=UTF-8
+encoding/<project>=UTF-8
