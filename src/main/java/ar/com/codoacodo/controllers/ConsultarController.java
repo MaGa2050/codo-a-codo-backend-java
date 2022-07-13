@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import ar.com.codoacodo.connection.AdministradorDeConexiones;
 import ar.com.codoacodo.dto.Producto;
 
-@WebServlet("/api/ConsultarController")
+@WebServlet("/ConsultarController")
 public class ConsultarController extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

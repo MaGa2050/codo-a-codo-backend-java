@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import ar.com.codoacodo.daos.ProductoDAO;
 import ar.com.codoacodo.dto.Producto;
 
-@WebServlet("/api/ListadoController")
+@WebServlet("/ListadoController")
 public class ListadoController extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

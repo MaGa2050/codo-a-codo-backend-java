@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import ar.com.codoacodo.daos.ProductoDAO;
 import ar.com.codoacodo.dto.Producto;
 
-@WebServlet("/api/BuscarController")
+@WebServlet("/BuscarController")
 public class BuscarController extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

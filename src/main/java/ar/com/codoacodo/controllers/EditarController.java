@@ -14,7 +14,7 @@ import ar.com.codoacodo.connection.AdministradorDeConexiones;
 import ar.com.codoacodo.daos.ProductoDAO;
 import ar.com.codoacodo.dto.Producto;
 
-@WebServlet("/api/EditarController")
+@WebServlet("/EditarController")
 public class EditarController extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -39,7 +39,7 @@ public class EditarController extends HttpServlet {
 
 		String nombre = req.getParameter("nombre");
 		String precio = req.getParameter("precio");
-		String imagen = req.getParameter("imagen");
+		/*String imagen = req.getParameter("imagen");*/
 		String codigo = req.getParameter("codigo");
 		
 		//Crear ProductoDAO
@@ -49,6 +49,6 @@ public class EditarController extends HttpServlet {
 		dao.actualizarProducto(codigo, nombre, precio);
 
 		//ir a la siguiente pagina
-		resp.sendRedirect(req.getContextPath()+"/api/ListadoController");
+		resp.sendRedirect(req.getContextPath()+"/ListadoController");
 	}
 }

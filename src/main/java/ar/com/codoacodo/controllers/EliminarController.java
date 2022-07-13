@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/api/EliminarController")
+@WebServlet("/EliminarController")
 public class EliminarController extends HttpServlet {
 
 	@Override
@@ -31,7 +31,7 @@ public class EliminarController extends HttpServlet {
 				
 				con.close();
 				
-				resp.sendRedirect(req.getContextPath()+"/api/ListadoController");
+				resp.sendRedirect(req.getContextPath()+"/ListadoController");
 			}catch (Exception e) {
 				e.printStackTrace();
 			}

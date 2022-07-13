@@ -31,6 +31,6 @@ public class CreateController extends HttpServlet {
 		
 		//ctrl+shit+o
 		//ir a la siguiente pagina
-		resp.sendRedirect(req.getContextPath()+"/api/ListadoController");
+		resp.sendRedirect(req.getContextPath()+"/ListadoController");
 	}
 }
