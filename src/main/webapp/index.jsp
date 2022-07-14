@@ -9,7 +9,8 @@
 		<main>
 			<div class="container">
 				<section>
-					<h1>ABM de productos </h1>
+					<h1> ABM de productos </h1><br>
+					<img src="img/manos.png" alt="" style= 'width:80%; height:90%'>
 				</section>
 			</div>
 		</main>
